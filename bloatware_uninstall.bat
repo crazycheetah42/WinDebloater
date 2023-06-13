@@ -18,3 +18,8 @@ powershell Remove-AppxPackage Microsoft.Getstarted_8.2.22942.0_x64__8wekyb3d8bbw
 powershell Remove-AppxPackage Microsoft.MicrosoftStickyNotes_3.6.73.0_x64__8wekyb3d8bbwe
 powershell Remove-AppxPackage Microsoft.Office.OneNote_16001.14326.21386.0_x64__8wekyb3d8bbwe
 powershell Remove-AppxPackage Microsoft.MicrosoftOfficeHub_18.2305.1222.0_x64__8wekyb3d8bbwe
+powershell Remove-AppxPackage Microsoft.MSPaint_6.2203.1037.0_x64__8wekyb3d8bbwe
+powershell Remove-AppxPackage Microsoft.WindowsSoundRecorder_10.2103.28.0_x64__8wekyb3d8bbwe
+powershell Remove-AppxPackage Microsoft.People_10.2202.31.0_x64__8wekyb3d8bbwe
+powershell Remove-AppxPackage Microsoft.WindowsCalculator_11.2210.0.0_x64__8wekyb3d8bbwe
+powershell Remove-AppxPackage Microsoft.Windows.PeopleExperienceHost_10.0.19041.1023_neutral_neutral_cw5n1h2txyewy
