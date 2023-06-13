@@ -6,7 +6,6 @@ powershell Remove-AppxPackage Microsoft.BingWeather_4.53.51461.0_x64__8wekyb3d8b
 powershell Remove-AppxPackage Microsoft.GetHelp_10.2303.10961.0_x64__8wekyb3d8bbwe
 powershell Remove-AppxPackage Microsoft.WindowsMaps_11.2303.5.0_x64__8wekyb3d8bbwe
 powershell Remove-AppxPackage Microsoft.YourPhone_1.23042.108.0_x64__8wekyb3d8bbwe
-powershell Remove-AppxPackage Microsoft.Microsoft.XboxGameOverlay_1.54.4001.0_x64__8wekyb3d8bbwe
 powershell Remove-AppxPackage Microsoft.XboxApp_48.89.25001.0_x64__8wekyb3d8bbwe
 powershell Remove-AppxPackage Microsoft.MixedReality.Portal_2000.21051.1282.0_x64__8wekyb3d8bbwe
 powershell Remove-AppxPackage Microsoft.SkypeApp_15.98.3402.0_x64__kzf8qxf38zg5c
