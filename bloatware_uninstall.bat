@@ -16,3 +16,4 @@ powershell Remove-AppxPackage Disney.37853FC22B2CE_1.54.2.0_x64__6rarf9sa4v8jt
 powershell Remove-AppxPackage SpotifyAB.SpotifyMusic_1.213.661.0_x86__zpdnekdrzrea0
 powershell Remove-AppxPackage Microsoft.Getstarted_8.2.22942.0_x64__8wekyb3d8bbwe
 powershell Remove-AppxPackage Microsoft.MicrosoftStickyNotes_3.6.73.0_x64__8wekyb3d8bbwe
+powershell Remove-AppxPackage Microsoft.Office.OneNote_16001.14326.21386.0_x64__8wekyb3d8bbwe
