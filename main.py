@@ -23,7 +23,7 @@ def bloatware_uninstall():
         'Get-AppxPackage Microsoft.MSPaint | Remove-AppxPackage',
         'Get-AppxPackage Microsoft.WindowsSoundRecorder | Remove-AppxPackage',
         'Get-AppxPackage Microsoft.People | Remove-AppxPackage',
-        'Get-AppxPackage Microsoft.WindowsCalculato | Remove-AppxPackage',
+        'Get-AppxPackage Microsoft.WindowsCalculator | Remove-AppxPackage',
         'Get-AppxPackage Microsoft.Windows.PeopleExperienceHost | Remove-AppxPackage',
         'Get-AppxPackage Microsoft.Todos | Remove-AppxPackage',
         'Get-AppxPackage Microsoft.PowerAutomateDesktop | Remove-AppxPackage',
