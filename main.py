@@ -30,7 +30,9 @@ def bloatware_uninstall():
         'Get-AppxPackage Microsoft.BingNews | Remove-AppxPackage',
         'Get-AppxPackage Clipchamp.Clipchamp | Remove-AppxPackage',
         'Get-AppxPackage MicrosoftTeams | Remove-AppxPackage',
-        'Get-AppxPackage Microsoft.windowscommunicationsapps | Remove-AppxPackage'
+        'Get-AppxPackage Microsoft.windowscommunicationsapps | Remove-AppxPackage',
+        'Get-AppxPackage Microsoft.ZuneVideo | Remove-AppxPackage',
+        'Get-AppxPackage Microsoft.ZuneMusic | Remove-AppxPackage'
     ]
 
     for command in powershell_commands:
