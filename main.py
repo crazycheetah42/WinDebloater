@@ -11,6 +11,7 @@ def bloatware_uninstall():
         'Get-AppxPackage Microsoft.WindowsMaps | Remove-AppxPackage',
         'Get-AppxPackage Microsoft.YourPhone | Remove-AppxPackage',
         'Get-AppxPackage Microsoft.XboxApp | Remove-AppxPackage',
+        'Get-AppxPackage Microsoft.XboxGamingOverlay | Remove-AppxPackage',
         'Get-AppxPackage Microsoft.MixedReality.Portal | Remove-AppxPackage',
         'Get-AppxPackage Microsoft.SkypeApp | Remove-AppxPackage',
         'Get-AppxPackage Microsoft.WindowsFeedbackHub | Remove-AppxPackage',
