@@ -38,4 +38,3 @@ def bloatware_uninstall():
     for command in powershell_commands:
         subprocess.run(["powershell", "-Command", command], shell=True)
 bloatware_uninstall()
-os.system("power_plan.bat")
