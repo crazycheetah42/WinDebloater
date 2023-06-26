@@ -1,9 +1,8 @@
-import os
+import subprocess
 
 print("Welcome to WinDebloater! Press Enter to start the debloat...")
 input()
 def bloatware_uninstall():
-    import subprocess
     powershell_commands = [
         'Get-AppxPackage Microsoft.Microsoft3DViewer | Remove-AppxPackage',
         'Get-AppxPackage Microsoft.BingWeather | Remove-AppxPackage',
@@ -31,7 +30,6 @@ def bloatware_uninstall():
         'Get-AppxPackage Microsoft.BingNews | Remove-AppxPackage',
         'Get-AppxPackage Clipchamp.Clipchamp | Remove-AppxPackage',
         'Get-AppxPackage MicrosoftTeams | Remove-AppxPackage',
-        'Get-AppxPackage Microsoft.windowscommunicationsapps | Remove-AppxPackage',
         'Get-AppxPackage Microsoft.ZuneVideo | Remove-AppxPackage',
         'Get-AppxPackage Microsoft.ZuneMusic | Remove-AppxPackage'
     ]
@@ -39,4 +37,3 @@ def bloatware_uninstall():
     for command in powershell_commands:
         subprocess.run(["powershell", "-Command", command], shell=True)
 bloatware_uninstall()
-os.system("power_plan.bat")
