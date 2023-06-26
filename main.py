@@ -1,9 +1,8 @@
-import os
+import subprocess
 
 print("Welcome to WinDebloater! Press Enter to start the debloat...")
 input()
 def bloatware_uninstall():
-    import subprocess
     powershell_commands = [
         'Get-AppxPackage Microsoft.Microsoft3DViewer | Remove-AppxPackage',
         'Get-AppxPackage Microsoft.BingWeather | Remove-AppxPackage',
