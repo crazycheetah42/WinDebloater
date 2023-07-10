@@ -26,7 +26,6 @@ powershell_commands = [
     'Get-AppxPackage Microsoft.WindowsCalculator | Remove-AppxPackage',
     'Get-AppxPackage Microsoft.Windows.PeopleExperienceHost | Remove-AppxPackage',
     'Get-AppxPackage Microsoft.Todos | Remove-AppxPackage',
-    'Get-AppxPackage Microsoft.PowerAutomateDesktop | Remove-AppxPackage',
     'Get-AppxPackage Microsoft.BingNews | Remove-AppxPackage',
     'Get-AppxPackage Clipchamp.Clipchamp | Remove-AppxPackage',
     'Get-AppxPackage MicrosoftTeams | Remove-AppxPackage',
