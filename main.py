@@ -50,7 +50,6 @@ def standard_debloat():
         'Get-AppxPackage Microsoft.Windows.PeopleExperienceHost | Remove-AppxPackage',
         'Get-AppxPackage Microsoft.Todos | Remove-AppxPackage',
         'Get-AppxPackage Microsoft.BingNews | Remove-AppxPackage',
-        'Get-AppxPackage Microsoft.WindowsNotepad | Remove-AppxPackage'
     ]
     start_debloat(powershell_commands)
 def advanced_debloat():
