@@ -33,5 +33,6 @@ def apps_uninstall():
 print("Welcome to WinDebloater (Unattended)!")
 print("Please press Enter to start the debloat process:")
 input()
-print(f"Step 1 of the debloat process is running - Uninstall Bloatware")
+print(f"The debloat process is running - Uninstall Bloatware")
 apps_uninstall()
+print("The debloat process is complete!")
