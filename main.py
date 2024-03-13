@@ -119,7 +119,7 @@ advanced_debloat_tooltip.subwidget('message')['bg'] = 'black'
 advanced_debloat_tooltip.bind_widget(advanced_debloat_btn, balloonmsg="This removes as much bloatware as possible. This is not recommended unless you know what you're doing or you have a really slow PC.")
 advanced_debloat_btn.pack()
 
-winutil_btn = ttk.Button(root, text="Run ChrisTitusTech's winutil", command=advanced_debloat)
+winutil_btn = ttk.Button(root, text="Run ChrisTitusTech's winutil", command=winutil_run)
 winutil_tooltip = tix.Balloon(root)
 winutil_tooltip.subwidget('label')['bg'] = 'black'
 winutil_tooltip.subwidget('message')['bg'] = 'black'
