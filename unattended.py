@@ -2,9 +2,7 @@ import subprocess
 import logging
 
 logging.basicConfig(filename="WinDebloater.log", level=logging.INFO, format='%(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
-powershell_commands = []
 def apps_uninstall():
-    global powershell_commands
     powershell_commands = [
         'Get-AppxPackage Microsoft.Microsoft3DViewer | Remove-AppxPackage',
         'Get-AppxPackage Microsoft.BingWeather | Remove-AppxPackage',
