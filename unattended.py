@@ -1,5 +1,12 @@
+import ctypes
 import subprocess
 import logging
+
+def is_running_as_admin() -> bool:
+    # If the below function returns 0, it means that the script isn't running as admin.
+    # It'll return 1 otherwise.
+    # NOTE: This is calling a win32 API, meaning this won't work on UNIX-based systems (MacOS & Linux), as well as FreeBSD.
+    return ctypes.windll.shell32.IsUserAnAdmin() != 0
 
 logging.basicConfig(filename="WinDebloater.log", level=logging.INFO, format='%(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
 powershell_commands = []
@@ -29,6 +36,10 @@ def apps_uninstall():
             logging.info(f"Successfully executed: {command}")
         except subprocess.CalledProcessError as e:
             logging.error(f"Failed to execute: {command}. Error: {e}")
+
+if not is_running_as_admin():
+    logging.error("WinDebloater requires Admin Privileges to work properly, the program will exit...")
+    exit(1)
 
 print("Welcome to WinDebloater (Unattended)!")
 print("Please press Enter to start the debloat process:")
