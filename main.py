@@ -87,7 +87,8 @@ def advanced_debloat():
         'Get-AppxPackage Microsoft.WindowsNotepad | Remove-AppxPackage'
     ]
     start_debloat(powershell_commands)
-
+    from tkinter import messagebox
+    messagebox.showinfo("Debloat complete!", "Your Windows machine has been heavily debloated! Check your Start Menu, it should be much cleaner now.")
 def winutil_run():
     subprocess.run(["powershell", "-Command", "irm christitus.com/win | iex"], shell=True)
 
