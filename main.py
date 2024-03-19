@@ -53,9 +53,12 @@ def standard_debloat():
         'Get-AppxPackage Microsoft.People | Remove-AppxPackage',
         'Get-AppxPackage Microsoft.Windows.PeopleExperienceHost | Remove-AppxPackage',
         'Get-AppxPackage Microsoft.Todos | Remove-AppxPackage',
+        'Get-AppxPackage Microsoft.MicrosoftStickyNotes | Remove-AppxPackage',
         'Get-AppxPackage Microsoft.BingNews | Remove-AppxPackage',
     ]
     start_debloat(powershell_commands)
+    from tkinter import messagebox
+    messagebox.showinfo("Debloat complete!", "Your Windows machine has been debloated! Check your Start Menu, it should be much cleaner now.")
 def advanced_debloat():
     powershell_commands = [
         'Get-AppxPackage Microsoft.Microsoft3DViewer | Remove-AppxPackage',
